@@ -1,0 +1,75 @@
+﻿
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>U jump , I jump</title>
+<style type="text/css">
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #FF62FF;
+}
+.content {
+    width: 80%;
+    color: #90F;
+    height: 100%;
+    top: 0px;
+    left: 10%;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "微软雅黑";
+    margin-top: 0px;
+}
+body {
+    color: #FFF;
+    padding: 10px;
+    background: #FFF url(bg.jpg) no-repeat fixed top center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.des {
+    font-size: 15px;
+    color: #3C3C3C;
+    /*width: 100%;*/
+    text-shadow : 0px 0px 1px #fff;
+    z-index:1000;                   
+    right:20px;
+    position:fixed !important;
+    bottom:0px;
+}
+.des a {
+    color: #3C3C3C;
+    text-shadow : 0px 0px 1px #fff;
+}
+</style>
+<script src="./js/jquery.js" language="javascript" type="text/javascript"></script>
+<script src="./js/tao.js" language="javascript" type="text/javascript"></script>
+<script>
+$(document).ready(function(e) {
+    $("body").bind("contextmenu", function() {
+      return false;
+    });
+});
+</script>
+</head>
+
+<body>
+
+<center>
+<div align="left" class="content" style="margin: 20px 0 0 0; background-image:url('./img/pin.jpg');background-size: 100% 90%;background-repeat: no-repeat;"><span id="txt"></span><span id="guang"></span>
+<span></span>
+</div>
+</center>
+
+<div id="bubbles" style="visibility:hidden">
+<img src="./img/1.png">
+<img src="./img/2.png">
+<img src="./img/1.png">
+</div>
+<!---->
+
+</body></html>
