@@ -13,9 +13,28 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+
+	<style type="text/css">
+		/*悬浮框  */
+		
+		#float {
+			position: absolute;
+			z-index: 1;
+		}
+		/*图片大小*/
+		
+		#floatImg {
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+	
 </head>
 
 <body >
+	<script language="javascript" src="js/piao.js" ></script>
+	<div id="float"><a href="tree.html"><img id="floatImg" alt="图片未找到" src="img/tree.png"></a></div>
+
 	<div id="mainDiv" >
 		<div id="content">
 			<div id="code">
@@ -41,7 +60,7 @@
 				<span class="space"/> 但我们的爱不会逝去<br />
 				<br />
 			</div>
-			<div id="loveHeart" onclick="javascript:window.open('pop.html')">
+			<div id="loveHeart" onclick="javascript:window.open('tree.html')">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
@@ -92,5 +111,6 @@
 	</script>
     
 <audio src="mp3/4.m4a" autoplay="autoplay"></audio>
+
 </body>
 </html>
